@@ -1,5 +1,5 @@
 #DanielOgunlana
-#21-10-2014
+#30-10-2014
 #Iteration Class Exercise (Development Part 1)
 
 #Pretty much a times table
@@ -14,7 +14,8 @@
 
    
 user_number = int(input("Please enter a number:"))
-for numbers in range(1,user_number+1):
+number_display = int(input("How many times would you like this to display?:"))
+for numbers in range(1,number_display+1):
     print(numbers)
     print(numbers*user_number)
     print("-------------")
