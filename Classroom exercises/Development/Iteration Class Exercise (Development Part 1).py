@@ -14,8 +14,7 @@
 
    
 user_number = int(input("Please enter a number:"))
-number_display = int(input("How many times would you like this to display?:"))
-for numbers in range(1,number_display+1):
+for numbers in range(1,user_number+1):
     print(numbers)
     print(numbers*user_number)
     print("-------------")

@@ -1,5 +1,5 @@
 #DanielOgunlana
-#19-10-2014
+#31-10-2014
 #Iteration Class Exercise (Revision Part 6)
 
 for kilograms_weight in range(1,21):
